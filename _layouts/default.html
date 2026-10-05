@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:image" content="{{ '/assets/icon-512.png' | absolute_url }}">
+  <style>
+    :root {
+      --bg: #FFF8F1; --surface: #FFFFFF; --soft: #FDE3CC; --text: #3B2A20;
+      --muted: #7A6355; --link: #A8551C; --border: #F0DFD0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1E1814; --surface: #2A221D; --soft: #4A3424; --text: #F7EDE4;
+        --muted: #B9A496; --link: #F6AD74; --border: #3E322A;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font: 500 17px/1.6 ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+    header.site { display: flex; align-items: center; gap: 12px; padding-top: 20px; padding-bottom: 8px; }
+    header.site img { width: 40px; height: 40px; border-radius: 10px; }
+    header.site a.brand { color: var(--text); font-weight: 800; font-size: 20px; text-decoration: none; }
+    header.site .lang { margin-left: auto; font-size: 15px; }
+    main { padding-top: 8px; padding-bottom: 48px; }
+    a { color: var(--link); text-underline-offset: 3px; }
+    h1 { font-size: 32px; line-height: 1.2; font-weight: 800; margin: 24px 0 8px; }
+    h2 { font-size: 22px; line-height: 1.3; font-weight: 700; margin: 36px 0 8px; }
+    h3 { font-size: 17px; font-weight: 700; margin: 24px 0 4px; }
+    p, li { max-width: 68ch; }
+    .muted { color: var(--muted); }
+    .hero { text-align: center; padding: 24px 0 8px; }
+    .hero img { width: 200px; height: 200px; border-radius: 50%; background: var(--soft); }
+    .hero .tagline { font-size: 20px; color: var(--muted); margin-top: 0; }
+    .badge {
+      display: inline-block; margin-top: 12px; padding: 12px 24px; border-radius: 999px;
+      background: #F4A261; color: #3B2416; font-weight: 700; text-decoration: none;
+    }
+    .cards { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin-top: 24px; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 16px; }
+    .card h3 { margin-top: 0; }
+    footer { border-top: 1px solid var(--border); padding-top: 16px; padding-bottom: 40px; color: var(--muted); font-size: 15px; }
+    footer a { margin-right: 16px; }
+  </style>
+</head>
+<body>
+  {% assign pt = page.lang == 'pt-BR' %}
+  <header class="site wrap">
+    <img src="{{ '/assets/apple-touch-icon.png' | relative_url }}" alt="">
+    <a class="brand" href="{% if pt %}{{ '/pt/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">Foxy Basket</a>
+    {% if page.alt_url %}<a class="lang" href="{{ page.alt_url | relative_url }}" hreflang="{% if pt %}en{% else %}pt-BR{% endif %}">{% if pt %}English{% else %}Português{% endif %}</a>{% endif %}
+  </header>
+  <main class="wrap">
+    {{ content }}
+  </main>
+  <footer class="wrap">
+    {% if pt %}
+      <a href="{{ '/pt/privacidade/' | relative_url }}">Privacidade</a>
+      <a href="{{ '/pt/termos/' | relative_url }}">Termos de Uso</a>
+      <a href="{{ '/pt/suporte/' | relative_url }}">Suporte</a>
+    {% else %}
+      <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      <a href="{{ '/terms/' | relative_url }}">Terms</a>
+      <a href="{{ '/support/' | relative_url }}">Support</a>
+    {% endif %}
+    <p>© 2026 {{ site.operator }}</p>
+  </footer>
+</body>
+</html>
