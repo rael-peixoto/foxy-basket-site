@@ -1,10 +1,10 @@
 # GitHub Pages (Jekyll) for Foxy Basket: Settings > Pages > Deploy from branch main, folder /docs.
 title: Foxy Basket
 description: A cozy shared grocery list for families.
-url: https://raelmarchantpeixoto-hash.github.io
+url: https://rael-peixoto.github.io
 baseurl: /foxy-basket
 # One place to change the contact address used on every page.
-support_email: foxybasket.app@gmail.com
+support_email: raelmarchantpeixoto@gmail.com
 operator: Rael Marchant Peixoto
 # Replace with the real link (apps.apple.com/app/id…) once the App Store Connect record exists.
 app_store_url:
