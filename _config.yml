@@ -1,8 +1,8 @@
-# GitHub Pages (Jekyll) for Foxy Basket: Settings > Pages > Deploy from branch main, folder /docs.
+# GitHub Pages (Jekyll) for Foxy Basket. Published to the public repo rael-peixoto/foxy-basket-site with `npm run site:publish`.
 title: Foxy Basket
 description: A cozy shared grocery list for families.
 url: https://rael-peixoto.github.io
-baseurl: /foxy-basket
+baseurl: /foxy-basket-site
 # One place to change the contact address used on every page.
 support_email: raelmarchantpeixoto@gmail.com
 operator: Rael Marchant Peixoto
