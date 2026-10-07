@@ -8,13 +8,13 @@ alt_url: /pt/termos/
 
 # Terms of Service
 
-<p class="muted">Last updated: October 5, 2026</p>
+<p class="muted">Last updated: October 7, 2026</p>
 
 These terms are an agreement between you and {{ site.operator }}, who makes Foxy Basket. By using the app you accept them. If you don't, please don't use the app.
 
 ## The service
 
-Foxy Basket lets you keep grocery lists and a catalog of products, sort them your way, and share lists with people you invite. It's free. We may change, improve or remove features, and we'll try to give notice before ending the service.
+Foxy Basket lets you keep grocery lists with all the details of each item, sort them your way, and share lists with people you invite. It's free. We may change, improve or remove features, and we'll try to give notice before ending the service.
 
 ## Accounts and guest mode
 
@@ -27,14 +27,14 @@ Foxy Basket lets you keep grocery lists and a catalog of products, sort them you
 
 Don't use Foxy Basket to:
 
-- store or share illegal content, or content that is hateful, harassing, sexually explicit or violent, in list names, product names, notes or photos;
+- store or share illegal content, or content that is hateful, harassing, sexually explicit or violent, in list names, item names, notes or photos;
 - send invites to harass or spam people;
 - upload photos you don't have the right to use;
 - try to get into other people's data, attack or overload the service, or get around its limits and security.
 
 ## Your content
 
-Your lists, products, notes and photos belong to you. So that the app can work, you give us a license to store, copy and show your content to you and to the people you share it with, only for running Foxy Basket. The license ends when you delete the content or your account, except for copies in backups, which expire within 90 days.
+Your lists, items, notes and photos belong to you. So that the app can work, you give us a license to store, copy and show your content to you and to the people you share it with, only for running Foxy Basket. The license ends when you delete the content or your account, except for copies in backups, which expire within 90 days.
 
 ## Sharing
 

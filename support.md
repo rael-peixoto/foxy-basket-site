@@ -26,7 +26,7 @@ Yes. Tap **Continue without an account**. Your lists are saved online under a ra
 
 ### How do I delete my account and my data?
 
-In the app: **Settings > Delete account** (or **Delete guest data**). It deletes your lists (also for the people you shared them with), products, photos and invites right away. If you can't open the app, email us from the address on your account.
+In the app: **Settings > Delete account** (or **Delete guest data**). It deletes your lists and their items (also for the people you shared them with), photos and invites right away. If you can't open the app, email us from the address on your account.
 
 ### Someone is bothering me with invites
 

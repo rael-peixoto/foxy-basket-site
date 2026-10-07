@@ -8,13 +8,13 @@ alt_url: /terms/
 
 # Termos de Uso
 
-<p class="muted">Última atualização: 5 de outubro de 2026</p>
+<p class="muted">Última atualização: 7 de outubro de 2026</p>
 
 Estes termos são um acordo entre você e {{ site.operator }}, que faz o Foxy Basket. Ao usar o app, você os aceita. Se não concordar, por favor não use o app.
 
 ## O serviço
 
-O Foxy Basket permite manter listas de mercado e um catálogo de produtos, ordená-los do seu jeito e compartilhar listas com quem você convidar. Ele é gratuito. Podemos mudar, melhorar ou remover funções, e vamos tentar avisar antes de encerrar o serviço.
+O Foxy Basket permite manter listas de mercado com todos os detalhes de cada item, ordená-las do seu jeito e compartilhar listas com quem você convidar. Ele é gratuito. Podemos mudar, melhorar ou remover funções, e vamos tentar avisar antes de encerrar o serviço.
 
 ## Contas e modo convidado
 
@@ -27,14 +27,14 @@ O Foxy Basket permite manter listas de mercado e um catálogo de produtos, orden
 
 Não use o Foxy Basket para:
 
-- guardar ou compartilhar conteúdo ilegal, ou conteúdo de ódio, assédio, sexual explícito ou violento, em nomes de listas, nomes de produtos, observações ou fotos;
+- guardar ou compartilhar conteúdo ilegal, ou conteúdo de ódio, assédio, sexual explícito ou violento, em nomes de listas, nomes de itens, observações ou fotos;
 - enviar convites para assediar pessoas ou fazer spam;
 - enviar fotos que você não tem direito de usar;
 - tentar acessar dados de outras pessoas, atacar ou sobrecarregar o serviço, ou burlar seus limites e sua segurança.
 
 ## Seu conteúdo
 
-Suas listas, produtos, observações e fotos são seus. Para o app funcionar, você nos concede uma licença para guardar, copiar e mostrar seu conteúdo a você e às pessoas com quem você o compartilha, apenas para operar o Foxy Basket. A licença termina quando você exclui o conteúdo ou a conta, exceto pelas cópias de segurança, que expiram em até 90 dias.
+Suas listas, itens, observações e fotos são seus. Para o app funcionar, você nos concede uma licença para guardar, copiar e mostrar seu conteúdo a você e às pessoas com quem você o compartilha, apenas para operar o Foxy Basket. A licença termina quando você exclui o conteúdo ou a conta, exceto pelas cópias de segurança, que expiram em até 90 dias.
 
 ## Compartilhamento
 

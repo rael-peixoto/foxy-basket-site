@@ -8,7 +8,7 @@ alt_url: /privacy/
 
 # Política de Privacidade
 
-<p class="muted">Última atualização: 5 de outubro de 2026</p>
+<p class="muted">Última atualização: 7 de outubro de 2026</p>
 
 O Foxy Basket é um app de lista de mercado para iPhone. Esta política explica o que coletamos, por quê, quem pode ver, e como você pode ver, corrigir ou excluir seus dados. Ela foi escrita para atender à Lei Geral de Proteção de Dados (LGPD) e às regras da App Store.
 
@@ -21,7 +21,7 @@ O Foxy Basket é feito e mantido por {{ site.operator }}, desenvolvedor pessoa f
 **Quando você usa o app sem conta (modo convidado)**
 
 - Um identificador aleatório, criado quando você toca em "Usar sem conta".
-- As listas, produtos, observações, fotos, preços e ordens personalizadas que você cria.
+- As listas, itens, observações, fotos, preços e ordens personalizadas que você cria.
 
 **Quando você cria uma conta, também**
 
@@ -47,7 +47,7 @@ Não usamos ferramentas de análise, publicidade ou rastreamento, e não coletam
 
 | Finalidade | Dados | Base legal (LGPD art. 7º) |
 | --- | --- | --- |
-| Fazer o app funcionar: salvar e sincronizar listas, produtos e fotos | Todos os acima | Execução de contrato (V) |
+| Fazer o app funcionar: salvar e sincronizar listas, itens e fotos | Todos os acima | Execução de contrato (V) |
 | Entrar, confirmar o e-mail, redefinir a senha | E-mail, hash da senha | Execução de contrato (V) |
 | Compartilhamento: convites, membros, permissões, bloqueios | Dados de compartilhamento, nome de exibição, @usuário | Execução de contrato (V) |
 | Segurança e prevenção de abuso: limites, cotas, registros, denúncias | Dados técnicos, dados de compartilhamento | Legítimo interesse (IX) |
@@ -55,15 +55,17 @@ Não usamos ferramentas de análise, publicidade ou rastreamento, e não coletam
 
 ## Quem pode ver seus dados
 
-- **Quem participa de uma lista com você** vê essa lista, seus itens, os produtos e fotos dela, e o nome de exibição e o @usuário dos membros.
+- **Quem participa de uma lista com você** vê essa lista, seus itens e as fotos deles, e o nome de exibição e o @usuário dos membros.
 - **Quando você convida alguém**, a pessoa vê o nome e o emoji da lista, seu nome de exibição e @usuário, e as permissões oferecidas.
-- **Mais ninguém.** Suas outras listas, produtos e fotos continuam privados. Convidar por e-mail nunca revela se aquele e-mail tem conta.
+- **Mais ninguém.** Suas outras listas, itens e fotos continuam privados. Convidar por e-mail nunca revela se aquele e-mail tem conta.
 
 Usamos estes prestadores de serviço para operar o app:
 
 - **Supabase** (banco de dados, login, armazenamento de fotos). Os dados ficam na região de São Paulo (Brasil), na Amazon Web Services.
 - **Google** (Gmail) envia os códigos de 6 dígitos, então seu e-mail e o código passam pelo Google.
 - **Apple** distribui o app. A política de privacidade da própria Apple vale para a App Store e o TestFlight.
+
+Esses fornecedores tratam os dados só para prestar seus serviços ao Foxy Basket, sob termos que os obrigam a protegê-los no mínimo tão bem quanto esta política.
 
 Nunca vendemos seus dados. Só os informamos a autoridades quando a lei exige.
 
@@ -72,7 +74,7 @@ Nunca vendemos seus dados. Só os informamos a autoridades quando a lei exige.
 ## Por quanto tempo guardamos
 
 - Seus dados ficam enquanto existir sua conta ou seu perfil de convidado.
-- Quando você exclui a conta ou os dados de convidado em Ajustes, apagamos na hora suas listas (para todos com quem foram compartilhadas), produtos, fotos, convites, participações e bloqueios.
+- Quando você exclui a conta ou os dados de convidado em Ajustes, apagamos na hora suas listas e os itens delas (para todos com quem foram compartilhadas), fotos, convites, participações e bloqueios.
 - Cópias de segurança criptografadas do banco são guardadas por até 90 dias, então dados excluídos somem delas em até 90 dias.
 - Registros do servidor são guardados por poucos dias.
 - Os dados de convidado ficam ligados só a um identificador aleatório. Se você apagar o app sem excluir esses dados, ninguém consegue voltar a entrar neles, e podemos excluí-los.
@@ -82,6 +84,7 @@ Nunca vendemos seus dados. Só os informamos a autoridades quando a lei exige.
 Pela LGPD você pode pedir a confirmação de que tratamos seus dados, acesso a eles, correção, anonimização, bloqueio ou eliminação, portabilidade, informação sobre com quem compartilhamos e revisão de decisões. Você também pode reclamar à Autoridade Nacional de Proteção de Dados (ANPD).
 
 - **No app:** edite seu nome, @usuário e conteúdo quando quiser. Exclua tudo em **Ajustes > Excluir conta** (ou **Excluir dados de convidado**).
+- **Revogue o consentimento** quando quiser excluindo sua conta ou seus dados de convidado no app: tudo para na hora.
 - **Por e-mail:** escreva para [{{ site.support_email }}](mailto:{{ site.support_email }}) para qualquer outro pedido, inclusive uma cópia dos seus dados. Respondemos em até 15 dias.
 
 ## Segurança

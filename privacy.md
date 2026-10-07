@@ -8,7 +8,7 @@ alt_url: /pt/privacidade/
 
 # Privacy Policy
 
-<p class="muted">Last updated: October 5, 2026</p>
+<p class="muted">Last updated: October 7, 2026</p>
 
 Foxy Basket is a grocery list app for iPhone. This policy explains what we collect, why, who can see it, and how you can see, change or delete it. It is written to meet Brazil's General Data Protection Law (LGPD) and the App Store's rules.
 
@@ -21,7 +21,7 @@ Foxy Basket is made and run by {{ site.operator }}, an individual developer in B
 **When you use the app without an account (guest mode)**
 
 - A random user ID created when you tap "Continue without an account".
-- The lists, products, notes, photos, prices and custom orders you create.
+- The lists, items, notes, photos, prices and custom orders you create.
 
 **When you create an account, also**
 
@@ -47,7 +47,7 @@ We don't use analytics, advertising or tracking tools, and we don't collect your
 
 | Purpose | Data | Legal basis (LGPD art. 7) |
 | --- | --- | --- |
-| Run the app: save and sync your lists, products and photos | Everything above | Performance of a contract (V) |
+| Run the app: save and sync your lists, items and photos | Everything above | Performance of a contract (V) |
 | Sign-in, confirming your email, resetting your password | Email, password hash | Performance of a contract (V) |
 | Sharing: invites, members, permissions, blocking | Sharing data, display name, @username | Performance of a contract (V) |
 | Security and abuse prevention: rate limits, quotas, server logs, reports | Technical data, sharing data | Legitimate interest (IX) |
@@ -55,15 +55,17 @@ We don't use analytics, advertising or tracking tools, and we don't collect your
 
 ## Who can see your data
 
-- **People you share a list with** see that list, its items, the products and photos on it, and the display names and @usernames of its members.
+- **People you share a list with** see that list, its items and their photos, and the display names and @usernames of its members.
 - **When you invite someone**, the invitee sees the list's name and emoji, your display name and @username, and the permissions you offered.
-- **Nobody else.** Your other lists, products and photos stay private. Inviting by email never tells you whether that email has an account.
+- **Nobody else.** Your other lists, items and photos stay private. Inviting by email never tells you whether that email has an account.
 
 We use these service providers to run the app:
 
 - **Supabase** (database, sign-in, photo storage). Data is stored in the São Paulo region (Brazil), on Amazon Web Services.
 - **Google** (Gmail) sends the 6-digit codes, so your email address and the code pass through Google.
 - **Apple** distributes the app. Apple's own privacy policy applies to the App Store and TestFlight.
+
+These providers handle data only to provide their services to Foxy Basket, under terms that require them to protect it at least as well as this policy does.
 
 We never sell your data. We disclose it to authorities only when the law requires it.
 
@@ -72,7 +74,7 @@ We never sell your data. We disclose it to authorities only when the law require
 ## How long we keep it
 
 - Your data stays while your account or guest profile exists.
-- When you delete your account or guest data in Settings, we delete your lists (for everyone they're shared with), products, photos, invites, memberships and blocks right away.
+- When you delete your account or guest data in Settings, we delete your lists and their items (for everyone they're shared with), photos, invites, memberships and blocks right away.
 - Encrypted backups of the database are kept for up to 90 days, so deleted data disappears from them within 90 days.
 - Server logs are kept for a few days.
 - Guest data is tied only to a random ID. If you delete the app without deleting your guest data, nobody can sign back in to it, and we may delete it.
@@ -82,6 +84,7 @@ We never sell your data. We disclose it to authorities only when the law require
 Under the LGPD you can ask us to confirm that we process your data, give you access to it, correct it, anonymize, block or delete it, move it to another service, tell you who we share it with, and review decisions. You can also complain to Brazil's data protection authority (ANPD).
 
 - **In the app:** edit your name, @username and content at any time. Delete everything in **Settings > Delete account** (or **Delete guest data**).
+- **Withdraw consent** at any time by deleting your account or guest data in the app: everything stops right away.
 - **By email:** write to [{{ site.support_email }}](mailto:{{ site.support_email }}) for anything else, including a copy of your data. We answer within 15 days.
 
 ## Security

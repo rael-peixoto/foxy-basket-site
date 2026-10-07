@@ -26,7 +26,7 @@ Sim. Toque em **Usar sem conta**. Suas listas ficam salvas online com um identif
 
 ### Como excluo minha conta e meus dados?
 
-No app: **Ajustes > Excluir conta** (ou **Excluir dados de convidado**). Isso apaga na hora suas listas (também para quem participa delas), produtos, fotos e convites. Se não conseguir abrir o app, mande um e-mail do endereço da sua conta.
+No app: **Ajustes > Excluir conta** (ou **Excluir dados de convidado**). Isso apaga na hora suas listas e os itens delas (também para quem participa delas), fotos e convites. Se não conseguir abrir o app, mande um e-mail do endereço da sua conta.
 
 ### Alguém está me incomodando com convites
 
