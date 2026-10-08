@@ -54,7 +54,7 @@
   </style>
 </head>
 <body>
-  {% assign pt = page.lang == 'pt-BR' %}
+  {% comment %}Liquid's assign can't compare: set the flag with an if.{% endcomment %}{% if page.lang == 'pt-BR' %}{% assign pt = true %}{% else %}{% assign pt = false %}{% endif %}
   <header class="site wrap">
     <img src="{{ '/assets/apple-touch-icon.png' | relative_url }}" alt="">
     <a class="brand" href="{% if pt %}{{ '/pt/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">Foxy Basket</a>
